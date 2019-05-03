@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:wpfDemo.ResouceXAML"
+                    xmlns:vm ="clr-namespace:wpfDemo.ViewModel">
+    <vm:MainViewModel x:Key="mainKey"></vm:MainViewModel>
+    <vm:LoginViewModel x:Key="loginRes"></vm:LoginViewModel>
+    <vm:UnitViewModel x:Key="unitRes"></vm:UnitViewModel>
+    <vm:SupplierViewModel x:Key="supllierRes"></vm:SupplierViewModel>
+    <vm:ObjectViewModel x:Key="objectRes"></vm:ObjectViewModel>
+    <vm:CustomerViewModel x:Key="customerRes"></vm:CustomerViewModel>
+</ResourceDictionary>
